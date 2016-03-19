@@ -23,7 +23,7 @@ Aaron Walters - Piano, Percussion
 Gabe Millman - Drumset
 
 
-Link to personal soundclouds (Aaron/Gabe)
+Link to personal soundclouds (Aaron/Gabe)+Aaron's Website
 	https://soundcloud.com/g_mills
 
 
