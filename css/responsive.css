@@ -1,0 +1,10 @@
+@media screen AND (min-width: 930px) {
+	
+	#mobile {
+		display: none;
+	}
+
+	#desktop {
+		display: inline;
+	}
+}
