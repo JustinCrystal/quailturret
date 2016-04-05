@@ -31,6 +31,9 @@ body{
 
 h1{margin:0;}
 
+
+/*******MOBILE********/
+
 div {
 	text-align: center;
 }
@@ -38,8 +41,7 @@ div {
 #headline {
 	text-align: left;
 	border-bottom: 1px solid black;
-	padding-left: 20px;
-	padding-bottom: 21.440px;
+	padding: 21.440px 0 21.440px 20px;
 	margin-bottom: 0;
 }
 
@@ -56,5 +58,26 @@ div {
 
 iframe {
 	max-width: 100%;
+}
+
+footer {
+	border-top: 1px solid black;
+	padding-top: 10px;
+}
+
+#footer1 {
+	float: left;
+}
+
+#footer2 {
+	float: right;
+}
+
+#fb-icon {
+	max-width: 76px;
+}
+
+#bandcamp-icon {
+	max-width: 80px;
 }
 
