@@ -1,20 +1,22 @@
 
 /***********DESKTOP************/
-body{
-	/*background:#fff;*/
-	background:url('../bg.jpg');
-;}
 
+@font-face{
+	font-family: 'cookiesAndMilk';
+	src: url('../cookies&milk-regular.ttf');
+}
 
 #desktop {
 	display: none;
 }
 
-
+#pics{
+	height
+}
 
 #aaron
 {
-	
+
 	float:right;
 	width:23.5em;
 	height:auto;
@@ -29,7 +31,10 @@ body{
 }
 
 
-h1{margin:0;}
+h1{
+	margin:0;
+	font: 10em'cookiesAndMilk';
+}
 
 
 /*******MOBILE********/
