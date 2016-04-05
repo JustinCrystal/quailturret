@@ -45,6 +45,7 @@ div {
 
 #headline {
 	text-align: left;
+	font-size: 3em;
 	border-bottom: 1px solid black;
 	padding: 21.440px 0 21.440px 20px;
 	margin-bottom: 0;
@@ -79,10 +80,11 @@ footer {
 }
 
 #fb-icon {
-	max-width: 76px;
+	max-width: 80px;
 }
 
 #bandcamp-icon {
 	max-width: 80px;
+	border-radius: 7%;
 }
 
