@@ -1,7 +1,35 @@
+
+/***********DESKTOP************/
+body{
+	/*background:#fff;*/
+	background:url('../bg.jpg');
+;}
+
+
 #desktop {
 	display: none;
 }
 
+
+
+#aaron
+{
+	
+	float:right;
+	width:23.5em;
+	height:auto;
+}
+#gabe
+{
+
+	float:left;
+	width:23.5em;
+	margin:0px;
+	padding:0px;
+}
+
+
+h1{margin:0;}
 
 div {
 	text-align: center;
@@ -14,3 +42,4 @@ div {
 iframe {
 	max-width: 100%;
 }
+
