@@ -7,8 +7,16 @@ div {
 	text-align: center;
 }
 
+#headline {
+	margin-bottom: -40px;
+	position: relative;
+	z-index: 2;
+}
+
 #band-picture{
-	max-width: 100%;
+	max-width: 80%;
+	position: relative;
+	z-index: 1;
 }
 
 iframe {
