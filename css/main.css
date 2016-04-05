@@ -8,7 +8,8 @@ div {
 }
 
 #headline {
-	margin-bottom: -40px;
+	margin-left: -40%;
+	margin-bottom: -50px;
 	position: relative;
 	z-index: 2;
 }
@@ -17,6 +18,12 @@ div {
 	max-width: 80%;
 	position: relative;
 	z-index: 1;
+}
+
+#mobile-bio {
+	text-align: left;
+	max-width: 90%;
+	margin: auto;
 }
 
 iframe {
