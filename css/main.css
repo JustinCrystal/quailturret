@@ -36,16 +36,16 @@ div {
 }
 
 #headline {
-	margin-left: -40%;
-	margin-bottom: -50px;
-	position: relative;
-	z-index: 2;
+	text-align: left;
+	border-bottom: 1px solid black;
+	padding-left: 20px;
+	padding-bottom: 21.440px;
+	margin-bottom: 0;
 }
 
 #band-picture{
 	max-width: 80%;
-	position: relative;
-	z-index: 1;
+	margin: 20px 0;
 }
 
 #mobile-bio {
