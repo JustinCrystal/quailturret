@@ -1,5 +1,18 @@
+@media screen AND (max-width: 930px){
+
+	html{
+
+		background:none;
+	}
+	#desktop{
+		display:none;
+	}
+}
+
 @media screen AND (min-width: 930px) {
 	
+
+
 	#mobile {
 		display: none;
 	}
@@ -8,3 +21,4 @@
 		display: inline;
 	}
 }
+

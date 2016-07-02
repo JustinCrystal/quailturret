@@ -1,43 +1,72 @@
-
-/***********DESKTOP************/
+/***********FONTS************/
 
 @font-face{
 	font-family: 'cookiesAndMilk';
 	src: url('../cookies&milk-regular.ttf');
 }
 
-#desktop {
-	display: none;
+@font-face{
+	font-family: 'quicksand';
+	src: url('../Quicksand-Regular.otf');
 }
 
-#pics{
-	height
+@font-face{
+	font-family: 'quicksand-bold';
+	src: url('../Quicksand-Bold.otf');
 }
 
-#aaron
-{
-
-	float:right;
-	width:23.5em;
-	height:auto;
-}
-#gabe
-{
-
-	float:left;
-	width:23.5em;
-	margin:0px;
-	padding:0px;
+@font-face{
+	font-family: 'dense';
+	src: url('../Dense-Regular.otf');
 }
 
+/***********DESKTOP************/
 
-h1{
-	margin:0;
-	font: 10em'cookiesAndMilk';
+
+html{
+	background: url('../qt-2.png') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#desktop{
+	max-width: 100%;
+	height: 100%;
+
+}
+
+#desktop-bio{
+	width:35%;
+	margin:auto;
+	padding:.25em 2em .25em 2em;
+	background:rgba(0,0,0,0.5);
+	font-size:1.25em;
+	line-height:1.5em;
+	margin-top:1em;
+	color:white;
+	border-radius:1em;
+	font-family:'quicksand';
+}
+
+p{
+	text-align: left;
+}
+
+
+#headline-desk{
+	margin:0 15px 0 0;
+	font: 20em 'dense';
+	text-align: right;
 }
 
 
 /*******MOBILE********/
+
+#mobile{
+	background-color:#EADFDB;
+}
 
 div {
 	text-align: center;
@@ -45,14 +74,14 @@ div {
 
 #headline {
 	text-align: left;
-	font-size: 3em;
+	margin:0;
+	font: 6em 'dense';
 	border-bottom: 1px solid black;
 	padding: 21.440px 0 21.440px 20px;
-	margin-bottom: 0;
 }
 
 #band-picture{
-	max-width: 80%;
+	max-width: 100%;
 	margin: 20px 0;
 }
 
@@ -60,25 +89,41 @@ div {
 	text-align: left;
 	max-width: 90%;
 	margin: auto;
+	padding:.25em 2em .25em 2em;
+	background:rgba(0,0,0,0.5);
+	font-size:1.25em;
+	line-height:1.5em;
+	margin-top:1em;
+	color:white;
+	padding:5px;
+	border-radius:1em;
+	font-family:'quicksand';
+
+}
+
+#mobile-player{
+	margin:auto;
 }
 
 iframe {
 	max-width: 100%;
+	margin:auto;
 }
 
 footer {
 	border-top: 1px solid black;
 	padding-top: 10px;
+	margin-top: 10px;
 }
 
-#footer1 {
+/*#footer1 {
 	float: left;
 }
 
 #footer2 {
 	float: right;
 }
-
+*/
 #fb-icon {
 	max-width: 80px;
 }
@@ -86,5 +131,9 @@ footer {
 #bandcamp-icon {
 	max-width: 80px;
 	border-radius: 7%;
+}
+
+a{
+	padding:2px;
 }
 
